@@ -38,13 +38,15 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-top: 200px;
-    border-radius: 10px;
+    box-shadow: 10px 10px 12px -13px rgba(0,0,0,0.75);
+   
 }
 
 .prava {
     padding: 30px;
     flex-basis: 55%;
     background-color: white;
+    border-radius: 0 10px 10px 0;
 }
 
 .prava h1 {
@@ -73,9 +75,14 @@ h2 {
 
 }
 
-.seznam li {
+
+
+.seznam  li {
+
+    
     display: inline-block;
     padding: 10px;
+   
 }
 
 .seznam .zvyrazneni {
@@ -92,7 +99,7 @@ h2 {
     width: 110px;
     font-size: 12px;
     box-shadow: 10px 10px 12px -18px rgba(0, 0, 0, 0.75);
-    margin-top: 60px;
+    margin-top: 25px;
 }
 
 .tlacitko a {
